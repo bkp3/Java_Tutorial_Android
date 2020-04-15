@@ -1,0 +1,36 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="bkp.com.javatutorial.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="Home"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/share_app"
+        android:orderInCategory="100"
+        android:title="Share App"
+
+        />
+    <item
+        android:id="@+id/check_for_updates"
+        android:orderInCategory="100"
+        android:title="Check For Updates"
+        />
+    <item
+        android:id="@+id/about_app"
+        android:orderInCategory="100"
+        android:title="About App"
+        />
+    <item
+        android:id="@+id/developer"
+        android:orderInCategory="100"
+        android:title="Developer"
+        />
+    <item
+        android:id="@+id/exit"
+        android:orderInCategory="100"
+        android:title="Exit"
+        />
+</menu>

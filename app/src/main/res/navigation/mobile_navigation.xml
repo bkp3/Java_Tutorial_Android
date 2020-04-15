@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_introduction_to_java">
+
+
+    <fragment
+        android:id="@+id/nav_introduction_to_java"
+        android:name="bkp.com.javatutorial.ui.introductionToJava.IntroductionToJavaFragment"
+        android:label="Introduction To Java"
+        tools:layout="@layout/fragment_introduction_to_java" />
+
+    <fragment
+        android:id="@+id/nav_java_fundamental"
+        android:name="bkp.com.javatutorial.ui.javaFundamental.JavaFundamentalFragment"
+        android:label="Java Fundamental"
+        tools:layout="@layout/fragment_java_fundamental" />
+    <fragment
+        android:id="@+id/nav_control_statement"
+        android:name="bkp.com.javatutorial.ui.controlStatement.ControlStatementFragment"
+        android:label="Control Statement"
+        tools:layout="@layout/fragment_control_statement" />
+    <fragment
+        android:id="@+id/nav_java_array"
+        android:name="bkp.com.javatutorial.ui.javaArray.JavaArrayFragment"
+        android:label="Java Array"
+        tools:layout="@layout/fragment_java_array" />
+    <fragment
+        android:id="@+id/nav_java_string"
+        android:name="bkp.com.javatutorial.ui.javaString.JavaStringFragment"
+        android:label="Java String"
+        tools:layout="@layout/fragment_java_string" />
+    <fragment
+        android:id="@+id/nav_introduction_of_classes"
+        android:name="bkp.com.javatutorial.ui.introductionToClasses.IntroductionToClassesFragment"
+        android:label="Introduction To Classes"
+        tools:layout="@layout/fragment_introduction_to_classes" />
+    <fragment
+        android:id="@+id/nav_oops"
+        android:name="bkp.com.javatutorial.ui.oops.OopsFragment"
+        android:label="Oops"
+        tools:layout="@layout/fragment_oops" />
+    <fragment
+        android:id="@+id/nav_exception_handling"
+        android:name="bkp.com.javatutorial.ui.exceptionHandling.ExceptionHandlingFragment"
+        android:label="Exception Handling"
+        tools:layout="@layout/fragment_exception_handling" />
+    <fragment
+        android:id="@+id/nav_multithreading"
+        android:name="bkp.com.javatutorial.ui.multithreading.MultithreadingFragment"
+        android:label="Multithreading"
+        tools:layout="@layout/fragment_multithreading" />
+    <fragment
+        android:id="@+id/nav_jdbc"
+        android:name="bkp.com.javatutorial.ui.jdbc.JdbcFragment"
+        android:label="JDBC"
+        tools:layout="@layout/fragment_jdbc" />
+    <fragment
+        android:id="@+id/nav_collections"
+        android:name="bkp.com.javatutorial.ui.collections.CollectionsFragment"
+        android:label="Collections"
+        tools:layout="@layout/fragment_collections" />
+
+</navigation>

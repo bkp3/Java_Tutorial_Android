@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_introduction_to_java"
+            android:title="1. Introduction To Java" />
+
+
+
+        <item
+            android:id="@+id/nav_java_fundamental"
+            android:title="2. Java Fundamental" />
+        <item
+            android:id="@+id/nav_control_statement"
+            android:title="3. Control Statement" />
+        <item
+            android:id="@+id/nav_java_array"
+            android:title="4. Java Array" />
+        <item
+            android:id="@+id/nav_java_string"
+            android:title="5. Java String" />
+        <item
+            android:id="@+id/nav_introduction_of_classes"
+            android:title="6. Introduction Of Classes" />
+        <item
+            android:id="@+id/nav_oops"
+            android:title="7. oops" />
+        <item
+            android:id="@+id/nav_exception_handling"
+            android:title="8. Exception Handling" />
+        <item
+            android:id="@+id/nav_multithreading"
+            android:title="9. Multithreading" />
+        <item
+            android:id="@+id/nav_jdbc"
+            android:title="10. JDBC" />
+        <item
+            android:id="@+id/nav_collections"
+            android:title="11. Collections" />
+    </group>
+</menu>
