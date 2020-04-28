@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@android:color/white"
     app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
     <ScrollView
@@ -23,10 +24,10 @@
                 android:padding="10dp"
                 >
                 <ImageView
-                    android:layout_width="50dp"
+                    android:layout_width="80dp"
                     android:layout_height="50dp"
                     android:layout_gravity="center_horizontal"
-                    app:srcCompat="@android:drawable/btn_star" />
+                    android:src="@drawable/tutorial"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -47,10 +48,10 @@
                 android:padding="10dp"
                 >
                 <ImageView
-                    android:layout_width="50dp"
+                    android:layout_width="80dp"
                     android:layout_height="50dp"
                     android:layout_gravity="center_horizontal"
-                    app:srcCompat="@android:drawable/btn_star" />
+                    android:src="@drawable/programs_logo" />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -60,6 +61,7 @@
                     android:textStyle="bold"
                     android:textColor="@android:color/black"/>
             </LinearLayout>
+
             <LinearLayout
                 android:id="@+id/faq"
                 android:layout_width="match_parent"
@@ -70,10 +72,10 @@
                 android:padding="10dp"
                 >
                 <ImageView
-                    android:layout_width="50dp"
+                    android:layout_width="80dp"
                     android:layout_height="50dp"
                     android:layout_gravity="center_horizontal"
-                    app:srcCompat="@android:drawable/btn_star" />
+                    android:src="@drawable/faq_logo"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -83,6 +85,7 @@
                     android:textStyle="bold"
                     android:textColor="@android:color/black"/>
             </LinearLayout>
+
             <LinearLayout
                 android:id="@+id/quiz"
                 android:layout_width="match_parent"
@@ -93,10 +96,10 @@
                 android:padding="10dp"
                 >
                 <ImageView
-                    android:layout_width="50dp"
+                    android:layout_width="80dp"
                     android:layout_height="50dp"
                     android:layout_gravity="center_horizontal"
-                    app:srcCompat="@android:drawable/btn_star" />
+                    android:src="@drawable/quiz_logo" />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -106,6 +109,7 @@
                     android:textStyle="bold"
                     android:textColor="@android:color/black"/>
             </LinearLayout>
+
             <LinearLayout
                 android:id="@+id/utility_codes"
                 android:layout_width="match_parent"
@@ -116,10 +120,10 @@
                 android:padding="10dp"
                 >
                 <ImageView
-                    android:layout_width="50dp"
+                    android:layout_width="80dp"
                     android:layout_height="50dp"
                     android:layout_gravity="center_horizontal"
-                    app:srcCompat="@android:drawable/btn_star" />
+                    android:src="@drawable/utility_logo" />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -129,6 +133,7 @@
                     android:textStyle="bold"
                     android:textColor="@android:color/black"/>
             </LinearLayout>
+
             <LinearLayout
                 android:id="@+id/important_facts"
                 android:layout_width="match_parent"
@@ -139,10 +144,10 @@
                 android:padding="10dp"
                 >
                 <ImageView
-                    android:layout_width="50dp"
+                    android:layout_width="80dp"
                     android:layout_height="50dp"
                     android:layout_gravity="center_horizontal"
-                    app:srcCompat="@android:drawable/btn_star" />
+                    android:src="@drawable/facts_logo"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -152,6 +157,7 @@
                     android:textStyle="bold"
                     android:textColor="@android:color/black"/>
             </LinearLayout>
+
             <LinearLayout
                 android:id="@+id/java_trick"
                 android:layout_width="match_parent"
@@ -162,10 +168,10 @@
                 android:padding="10dp"
                 >
                 <ImageView
-                    android:layout_width="50dp"
+                    android:layout_width="80dp"
                     android:layout_height="50dp"
                     android:layout_gravity="center_horizontal"
-                    app:srcCompat="@android:drawable/btn_star" />
+                    android:src="@drawable/tricks_logo" />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -175,6 +181,7 @@
                     android:textStyle="bold"
                     android:textColor="@android:color/black"/>
             </LinearLayout>
+
             <LinearLayout
                 android:id="@+id/java_project"
                 android:layout_width="match_parent"
@@ -185,10 +192,10 @@
                 android:padding="10dp"
                 >
                 <ImageView
-                    android:layout_width="50dp"
+                    android:layout_width="80dp"
                     android:layout_height="50dp"
                     android:layout_gravity="center_horizontal"
-                    app:srcCompat="@android:drawable/btn_star" />
+                    android:src="@drawable/projects_logo" />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -198,6 +205,7 @@
                     android:textStyle="bold"
                     android:textColor="@android:color/black"/>
             </LinearLayout>
+
             <LinearLayout
                 android:id="@+id/about_us"
                 android:layout_width="match_parent"
@@ -208,10 +216,10 @@
                 android:padding="10dp"
                 >
                 <ImageView
-                    android:layout_width="50dp"
+                    android:layout_width="80dp"
                     android:layout_height="50dp"
                     android:layout_gravity="center_horizontal"
-                    app:srcCompat="@android:drawable/btn_star" />
+                    android:src="@drawable/about_logo" />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"

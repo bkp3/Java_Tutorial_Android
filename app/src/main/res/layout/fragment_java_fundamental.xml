@@ -5,9 +5,238 @@
     android:layout_height="match_parent"
     tools:context=".ui.javaFundamental.JavaFundamentalFragment">
 
-    <TextView
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Hello" />
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#f7f2f2">
+
+            <LinearLayout
+                android:id="@+id/idj2.1ll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:padding="3dp"
+                android:background="#ffffff"
+                android:elevation="3dp"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2.1 Keywords :-"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:textSize="18dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="2dp"
+                    android:text="Keywords are the special reserved words.\n Example:- if, else, switch, for, int, char, private, public, new, class etc"
+                    android:textSize="15dp"
+                    android:textColor="@android:color/black"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/idj2.2ll"
+                android:layout_below="@+id/idj2.1ll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:padding="3dp"
+                android:background="#ffffff"
+                android:elevation="3dp"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2.2 Variables :-"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:textSize="18dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="2dp"
+                    android:text="Variables are named locations in memory. There are two types of variable."
+                    android:textSize="15dp"
+                    android:textColor="@android:color/black"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginRight="2dp"
+                    android:text="i. Local variable"
+                    android:textSize="15dp"
+                    android:textColor="@android:color/black"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginRight="2dp"
+                    android:text="ii. Instance variable"
+                    android:textSize="15dp"
+                    android:textColor="@android:color/black"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="2dp"
+                    android:text="i. Local variable :- A variable which is declared inside the method"
+                    android:textSize="15dp"
+                    android:textColor="@android:color/black"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="2dp"
+                    android:text="ii. Instance variable :- A variable which is declared inside the class but the outside of the method"
+                    android:textSize="15dp"
+                    android:textColor="@android:color/black"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@color/codeBackground"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:fadingEdge="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Class Demo {"
+                        android:textColor="@android:color/black"
+                        android:textSize="13sp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="int x = 10;                   //instance variable"
+                        android:textColor="@android:color/black"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="13sp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="void fun() {"
+                        android:textColor="@android:color/black"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="13sp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="int y = 20;                   //local variable"
+                        android:textColor="@android:color/black"
+                        android:layout_marginLeft="20dp"
+                        android:textSize="13sp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="}"
+                        android:textColor="@android:color/black"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="13sp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="}"
+                        android:textColor="@android:color/black"
+                        android:textSize="13sp"
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/idj2.3ll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:padding="3dp"
+                android:background="#ffffff"
+                android:elevation="3dp"
+                android:layout_below="@+id/idj2.2ll"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2.3 Data types :-"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:textSize="18dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dp"
+                    android:text="It tells the type of data. There are two types of data type."
+                    android:layout_marginRight="2dp"
+                    android:textSize="15dp"
+                    android:textColor="@android:color/black"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginRight="2dp"
+                    android:text="i. Premitive data type"
+                    android:textSize="15dp"
+                    android:textColor="@android:color/black"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginRight="2dp"
+                    android:text="ii. Non Premitive data type"
+                    android:textSize="15dp"
+                    android:textColor="@android:color/black"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="2dp"
+                    android:text="i. Premitive data type:- There are 8 premitive data types in java."
+                    android:textSize="15dp"
+                    android:textColor="@android:color/black"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="2dp"
+                    android:text="i. boolean  -  "
+                    android:textSize="15dp"
+                    android:textColor="@android:color/black"
+                    />
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+
 
 </FrameLayout>
